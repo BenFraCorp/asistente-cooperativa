@@ -3,7 +3,6 @@ import streamlit as st
 import sqlite3
 import openai
 from datetime import datetime
-
 # Configura tu clave de OpenAI
 openai.api_key = st.secrets["OPENAI_API_KEY"]
 
