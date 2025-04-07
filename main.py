@@ -5,7 +5,7 @@ import openai
 from datetime import datetime
 
 # Configura tu clave de OpenAI
-openai.api_key = "TU_API_KEY"
+openai.api_key = st.secrets["OPENAI_API_KEY"]
 
 # Conexión a la base de datos SQLite
 conn = sqlite3.connect("base_datos.db")
